@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "forever",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "i",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/ethereum/remix-workshops/10.2 Transactions - Gas and Gas Price/gasAndGasPrice.sol": "Gas"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/ethereum/remix-workshops/10.2 Transactions - Gas and Gas Price/gasAndGasPrice.sol": {
+			"keccak256": "0xd8932c11ce6539f3c78db6be1008f9a23c437f6f8b9e6f888854fa11ec6cd8b6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a61ddd2dcfc0b82f3d09dc3cdaf174e4d3bc37989a2d259fd7a5fb26a2bbee9c",
+				"dweb:/ipfs/QmUhJpwHEUrGqZ6RVKRKMEYFfsvFqvN8sBHXQ2vtmzUcKm"
+			]
+		}
+	},
+	"version": 1
+}

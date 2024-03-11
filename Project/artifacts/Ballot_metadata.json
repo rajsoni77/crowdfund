@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Project/vote.sol": "Ballot"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Project/vote.sol": {
+			"keccak256": "0x62c01a97ddac158b06f15fcb82e6e41ea794d32203583d859b45beeda5ff9ee4",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://478c10e6a45918fd5d53818bba0f48e521c08c1edb357f41d531c955794e2815",
+				"dweb:/ipfs/QmbJwMkASeutd7CGtDoZmkw4Hqff6aSE7ToRzSSHC2Kn9a"
+			]
+		}
+	},
+	"version": 1
+}

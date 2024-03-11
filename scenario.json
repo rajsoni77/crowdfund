@@ -1,0 +1,81 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1707492158735,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x87b19500f0f2df7da8364447a4c51c4ad41dd5b253dea17505e6679b59d2db49",
+        "contractName": "Lottery",
+        "bytecode": "608060405234801561000f575f80fd5b50335f806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506102e78061005c5f395ff3fe608060405260043610610037575f3560e01c806335c1d349146100a1578063481c6a75146100dd5780634d9b3d5d146101075761009d565b3661009d57600133908060018154018082558091505060019003905f5260205f20015f9091909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055005b5f80fd5b3480156100ac575f80fd5b506100c760048036038101906100c291906101cd565b610131565b6040516100d49190610237565b60405180910390f35b3480156100e8575f80fd5b506100f161016c565b6040516100fe9190610270565b60405180910390f35b348015610112575f80fd5b5061011b61018f565b6040516101289190610298565b60405180910390f35b60018181548110610140575f80fd5b905f5260205f20015f915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b5f8054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b5f47905090565b5f80fd5b5f819050919050565b6101ac8161019a565b81146101b6575f80fd5b50565b5f813590506101c7816101a3565b92915050565b5f602082840312156101e2576101e1610196565b5b5f6101ef848285016101b9565b91505092915050565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f610221826101f8565b9050919050565b61023181610217565b82525050565b5f60208201905061024a5f830184610228565b92915050565b5f61025a826101f8565b9050919050565b61026a81610250565b82525050565b5f6020820190506102835f830184610261565b92915050565b6102928161019a565b82525050565b5f6020820190506102ab5f830184610289565b9291505056fea2646970667358221220bb570a754f5548e1ec22a5949cc6fe9a011db2053ed8a5aeb46581cebc4fd07764736f6c63430008180033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x87b19500f0f2df7da8364447a4c51c4ad41dd5b253dea17505e6679b59d2db49": [
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "inputs": [],
+        "name": "getbalance",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "manager",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "participants",
+        "outputs": [
+          {
+            "internalType": "address payable",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "stateMutability": "payable",
+        "type": "receive"
+      }
+    ]
+  }
+}

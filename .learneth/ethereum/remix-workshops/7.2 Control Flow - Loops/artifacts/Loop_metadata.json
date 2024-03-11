@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/ethereum/remix-workshops/7.2 Control Flow - Loops/loops.sol": "Loop"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/ethereum/remix-workshops/7.2 Control Flow - Loops/loops.sol": {
+			"keccak256": "0x16fe42bdc8dd63b7d58035e4fbe5b780c4595412d31537206e58cc9e967724d2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3ce999a70d10a378ff8348cfb52da9b0686ff68bf91319165bc939935a14aeae",
+				"dweb:/ipfs/QmRhrnKxYiJ1q8wErBt8ZfdsEa57zzg4z28V6819AmQEcW"
+			]
+		}
+	},
+	"version": 1
+}
